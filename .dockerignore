@@ -1,0 +1,19 @@
+# Keep the build context small and free of secrets.
+
+# Hidden files and folders: .git, .env, .gitignore, editor settings, ...
+.*
+Dockerfile*
+
+# Python caches and local environments
+__pycache__/
+*.pyc
+venv/
+
+# Secrets and local settings must never enter the image
+*.env
+
+# Documentation and screenshots are not needed to run the app
+*.md
+*.png
+*.jpg
+screenshots/

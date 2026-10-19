@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+*.env
+.vscode/
+.idea/
+
+# Docker Desktop install screenshot, not part of the homework
+/image.png
